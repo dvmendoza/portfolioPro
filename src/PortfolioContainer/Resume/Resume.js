@@ -76,7 +76,7 @@ const Resume = (props) => {
         title: "Chatterbox (Under Construction)",
         duration: { fromDate: "2022", toDate: "2023" },
         description:
-          "An social-media application designed to chat with friends and meet new ones. OAuth integration as well as increased user security by integrating bcrypt to hash passwords.",
+          "A social-media application designed to chat with friends and meet new ones. OAuth integration as well as increased user security by integrating bcrypt to hash passwords.",
         subHeading:
           "Technologies Used:  Python, Flask, MySQL and socket.io.",
       },
@@ -94,7 +94,7 @@ const Resume = (props) => {
       <div className="resume-screen-container" key="education">
         <ResumeHeading
           heading={"Coding Dojo"}
-          subHeading={"FULL STACK SOFTWARE DEVELOPER"}
+          subHeading={"Full Stack Software Engineer"}
           fromDate={"Aug2022"}
           toDate={"Nov2022"}
         />
