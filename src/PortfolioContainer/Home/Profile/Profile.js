@@ -6,20 +6,20 @@ import './Profile.css'
 
 export default function Profile() {
 
-    const el = useRef(null);
+    // const el = useRef(null);
 
-    useEffect(() => {
-        const typed = new Typed(el.current, {
-            strings:["Enthusiastic Dev 🔴", "Full Stack Developer 💻", "MERN Stack Dev 😎", "Cross Platform Dev 🔗", "React/React Native Dev 🌐" ],
-            startDelay: 300,
-            typeSpeed: 50,
-            backDelay: 150,
-            backSpeed: 40,
-            smartBackspace: true,
-            showCursor: false,
-            loop: true,
-        })
-    })
+    // useEffect(() => {
+    //     const typed = new Typed(el.current, {
+    //         strings:[ "Full Stack Developer 💻"],
+    //         startDelay: 300,
+    //         typeSpeed: 50,
+    //         backDelay: 150,
+    //         backSpeed: 40,
+    //         smartBackspace: true,
+    //         showCursor: false,
+    //         loop: true,
+    //     })
+    // })
     
   return (
     <div className="profile-container">
@@ -54,7 +54,8 @@ export default function Profile() {
             <span className="primary-text">
                 {" "}
                 <h1>
-                    <span ref={el}></span>
+                  Full Stack Developer 💻
+                    {/* <span ref={el}></span> */}
                 </h1>
             </span>
                 <span className="profile-role-tagline">
