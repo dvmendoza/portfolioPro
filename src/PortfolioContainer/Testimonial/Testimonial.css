@@ -18,16 +18,17 @@
     background-color: #1f2235;
   }
   .footer-image {
-    width: 100%;
+    /* width: 2600px; */
     height: 100%;
-    max-width: 1920px;
+    /* max-width: 2600px; */
     overflow: hidden;
     display: flex;
     justify-content: center;
     margin-top: -110px;
   }
   .footer-image img {
-    max-width: 100%;
+    /* max-width: 2600px; */
+    width: 2600px;
     height: 130px;
   }
   
