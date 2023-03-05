@@ -66,20 +66,20 @@ export default function ContactMe(props) {
     }
   };
 
-  const el = useRef(null);
+  // const el = useRef(null);
 
-  useEffect(() => {
-      const typed = new Typed(el.current, {
-          strings:["📧", "✌️", "🤟", "🖖", "👋" ],
-          startDelay: 300,
-          typeSpeed: 100,
-          backDelay: 150,
-          backSpeed: 100,
-          smartBackspace: true,
-          showCursor: false,
-          loop: true,
-      })
-  })
+  // useEffect(() => {
+  //     const typed = new Typed(el.current, {
+  //         strings:["📧", "✌️", "🤟", "🖖", "👋" ],
+  //         startDelay: 300,
+  //         typeSpeed: 100,
+  //         backDelay: 150,
+  //         backSpeed: 100,
+  //         smartBackspace: true,
+  //         showCursor: false,
+  //         loop: true,
+  //     })
+  // })
 
   return (
     <div className="main-container fade-in" id={props.id || ""}>
@@ -87,8 +87,8 @@ export default function ContactMe(props) {
       <div className="central-form">
         <div className="col">
           <h2 className="title">
-            Get In Touch
-            <span ref={el}></span>
+            Get In Touch 📧
+            {/* <span ref={el}></span> */}
           </h2>{" "}
             <a href="https://github.com/dvmendoza" target="_blank">
                 <i className="fa fa-github"></i>

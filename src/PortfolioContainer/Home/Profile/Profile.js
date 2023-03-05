@@ -54,7 +54,7 @@ export default function Profile() {
             <span className="primary-text">
                 {" "}
                 <h1>
-                  Full Stack Developer 💻
+                  Software Engineer 💻 
                     {/* <span ref={el}></span> */}
                 </h1>
             </span>
