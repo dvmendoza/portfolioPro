@@ -136,7 +136,7 @@ const Resume = (props) => {
           />
           <div className="experience-description">
             <span className="resume-description-text">
-            Leverage strong communication, decision making, and negotiation skills to mitigate conflict.
+            Leverage strong communication, decision making, and negotiation skills.
             </span>
           </div>
           <br />
